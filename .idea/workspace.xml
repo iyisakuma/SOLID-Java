@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a1c20d-56ea-4716-b4e0-20f4985fe9d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/rh/exception/ValidacaoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/rh/model/Cargo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/rh/model/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/rh/servico/ReajusteServce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/rh/validacao/ValidaReajuste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/rh/validacao/ValidaReajustePercentual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/rh/validacao/ValidaReajustePerioticidade.java" afterDir="false" />
+    <list default="true" id="00a1c20d-56ea-4716-b4e0-20f4985fe9d3" name="Changes" comment="Implementado principios de simple responsibility principle e open close principle">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/rh/model/DadosPessoais.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/rh/model/Terceirizado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/rh/promocao/PromocaoFuncionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/rh/model/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/rh/model/Cargo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/rh/model/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/rh/model/Funcionario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -58,7 +52,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/home/yujisakuma/Pessoal/Estudos/Java/Spring/Boot",
+    "last_opened_file_path": "/home/yujisakuma/Pessoal/Estudos/Java/Solid",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,10 +79,23 @@
       <updated>1684289925121</updated>
       <workItem from="1684289926740" duration="2421000" />
       <workItem from="1684345046552" duration="316000" />
+      <workItem from="1684376156066" duration="1865000" />
     </task>
+    <task id="LOCAL-00001" summary="Implementado principios de simple responsibility principle e open close principle">
+      <created>1684376260470</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684376260470</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implementado principios de simple responsibility principle e open close principle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementado principios de simple responsibility principle e open close principle" />
   </component>
 </project>
